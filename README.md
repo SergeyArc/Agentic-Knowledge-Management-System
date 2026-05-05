@@ -36,7 +36,7 @@ The system relies on a strict but simple YAML schema to enable AI-agent automati
 
 | Field | Description |
 | :--- | :--- |
-| `note_type` | `permanent` (knowledge), `structure` (MOC), or `fleeting`. |
+| `note_type` | `permanent` (atomic knowledge), `literature` (source notes), `fleeting` (temporary thoughts), `structure` (MOC), or `project` (project files). |
 | `status` | `stub` (unwritten), `red` (unlearned), `yellow` (familiar), `green` (mastered). |
 | `up` | Wikilinks to parent MOCs (provides breadcrumbs). |
 | `source` | Provenance link (URL, Book, or Zotero ID). |
@@ -65,9 +65,8 @@ For detailed session flows and exact prompts, see [How to Work with the System T
 2. **Open in Obsidian:** Point Obsidian to the cloned folder.
 3. **Install Claude Code:** Ensure you have the [Anthropic Claude CLI](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code) installed.
 4. **Start Thinking:**
-   - Initialize your `Global Index.md` in `MOCs/`.
    - Run `claude` in your terminal.
-   - Say: *"Analyze my MOCs and suggest a study plan for my first topic."*
+   - Say: *"Create a Global Index MOC and my first domain MOC for [your topic]."*
 
 ---
 
