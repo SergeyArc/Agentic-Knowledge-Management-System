@@ -70,7 +70,7 @@ For detailed session flows and exact prompts, see [How to Work with the System T
 
 ---
 
-## 🚀 First 10 Minutes
+## First 10 Minutes
 
 Here's exactly what to say to your agent to go from zero to a working knowledge base.
 
