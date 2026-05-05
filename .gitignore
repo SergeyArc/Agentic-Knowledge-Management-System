@@ -1,0 +1,23 @@
+# --- Obsidian ---
+.obsidian
+
+# --- AI & Development ---
+.brain_meta/
+.graph_cache.json
+.ingest_checkpoint.json
+.brain_reports/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Logs and temporary files
+.claude/
+node_modules/
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+*.tmp
