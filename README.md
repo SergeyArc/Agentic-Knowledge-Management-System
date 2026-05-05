@@ -70,6 +70,42 @@ For detailed session flows and exact prompts, see [How to Work with the System T
 
 ---
 
+## 🚀 First 10 Minutes
+
+Here's exactly what to say to your agent to go from zero to a working knowledge base.
+
+**Step 1 — Initialize your vault structure (2 min)**
+
+Create a Global Index MOC in `MOCs/` for my knowledge base.
+My main domains are: [list your topics, e.g. AI Engineering, ML, Philosophy].
+Create a top-level MOC for each domain.
+
+**Step 2 — Create your first atomic note (3 min)**
+
+I want to capture this idea as a permanent note:
+"[Your idea or concept here]"
+It belongs to the [domain] MOC.
+Create it following the manifest template.
+
+**Step 3 — Run your first gap analysis (2 min)**
+
+Open `MOCs/[Your Domain].md` and analyze the Gaps section.
+What are the 3 most important concepts missing from this domain
+that I should study first?
+Add them as stubs linked to the MOC.
+
+**Step 4 — Ingest your first source (3 min)**
+
+I have this article/note in `Inbox/`: [filename or paste text].
+I'm particularly interested in [specific aspect].
+Process it into atomic notes following the Ingest workflow.
+
+After 10 minutes you will have: a working MOC structure,
+your first permanent notes, visible knowledge gaps,
+and a clear list of what to learn next.
+
+---
+
 ## Manifesto
 The core rules of this system are defined in `MANIFEST.md`. It covers:
 - Why **Titles-as-Assertions** prevent the "Illusion of Competence."
